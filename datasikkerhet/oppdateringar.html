@@ -1,0 +1,71 @@
+<html>
+
+	<head>
+		<title>Oppdatering av PC og andre program</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../stil.css">
+		<link rel="stylesheet" type="text/css" href="../dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="top.css">
+		<link rel="stylesheet" type="text/css" href="kropp.css">
+	</head>
+	
+	<body>
+	<div id="wrapper">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="datasikkerhet.html">Datasikkerhet</a></li>
+	  </ul>
+	  <br>
+		<header>
+		<font size="5"><b>Tema:</b></font>
+			<div class="dropdown">
+		 <button class="dropbtn">Oppdatering av PC og andre program</button>
+		  <div id="myDropdown" class="dropdown-content">
+			<a href="definisjon.html">Definisjon av datasikkerhet</a>
+			<a href="oppdateringar.html">Oppdatering av PC og andre program</a>
+			<a href="autentisering.html">Autentiseringstypar</a>
+			<a href="datavirus.html">Datavirus</a>
+			<a href="antivirus.html">Antivirus</a>
+			<a href="dmz.html">DMZ</a>
+			<a href="phising.html">Phishing</a>
+			<a href="idtjuveri.html">ID tjuveri</a>
+			<a href="hacking.html">Hacking</a>
+		  </div>
+		</div>
+	</header>
+		<main>
+		<h1>Oppdatering:</h1>
+			Maskiner, nettverk og programvare må haldast ved like og oppdaterast regelmessig. Dette arbeidet bør planleggjast.<br>
+			Program og operativsystem må også haldast ved like og oppdaterast. 
+			<br>Dei fleste programvareprodusentane kjem med serviceoppdateringar etter kvart som dei oppdagar feil, eller i samband med endringar i operativsystem eller applikasjonar.
+		</main>
+	
+	</div>
+	
+	
+	
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 200 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	</body>
+</html>

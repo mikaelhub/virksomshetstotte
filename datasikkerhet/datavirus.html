@@ -1,0 +1,100 @@
+<html>
+
+	<head>
+		<title>Datavirus</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../stil.css">
+		<link rel="stylesheet" type="text/css" href="../dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="top.css">
+		<link rel="stylesheet" type="text/css" href="kropp.css">
+	</head>
+	
+	<body>
+	<div id="wrapper">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="datasikkerhet.html">Datasikkerhet</a></li>
+	  </ul>
+	<br>
+	
+	<header>
+	<font size="5"><b>Tema:</b></font>
+		<div class="dropdown">
+	 <button class="dropbtn">Datavirus</button>
+	  <div id="myDropdown" class="dropdown-content">
+		<a href="definisjon.html">Definisjon av datasikkerhet</a>
+		<a href="oppdateringar.html">Oppdatering av PC og andre program</a>
+		<a href="autentisering.html">Autentiseringstypar</a>
+		<a href="datavirus.html">Datavirus</a>
+		<a href="antivirus.html">Antivirus</a>
+		<a href="dmz.html">DMZ</a>
+		<a href="phising.html">Phishing</a>
+		<a href="idtjuveri.html">ID tjuveri</a>
+		<a href="hacking.html">Hacking</a>
+	  </div>
+	</div>
+	</header>
+	
+	<main>
+	<h1>Datavirus:</h1>
+	
+	<p>Datavirus blir ofte brukt som eit samleomgrep for uønskte program som på ein 
+	eller anna måte gjer skade på data eller tek over kontrollen over datamaskina
+	Det finst fleire ulike kategoriar av datavirus, men felles for dei er at dei blir 
+	spreidde og installerte på maskina utan at brukaren veit om det eller ønskjer det.</p>
+	<p>Ein del datavirus utnyttar tryggleikshol i operativsystem og populære program.
+	Når eit datavirus først er komme inn i ei maskin, kan det spreie seg vidare til andre maskiner i nettverket
+	ved å lese adresselista til brukaren og sende seg sjølv som e-post til alle som står på lista. <br>
+	Dermed ser det ut som om nokon du kjenner, har sendt deg ein e-post med eit vedlegg. 
+	Den same teknikken blir også brukt i andre program som har adresselister og meldingsfunksjonar.</p>
+	<p>Det er to typar datavirus, ormar og trojanske hestar, forskjellen på dei er korleis dei sprer seg.<br>
+	Ein orm har ein programkode som gjer at han er i stand til å spreie seg sjølv.<br>
+	Ein trojansk helst er nemninga på eit virus som skjuler seg inni eit anna program 
+	og blir spreidd når nokon lastar ned eller kopierer vertsprogrammet.</p>
+	<p>Datavirus kan vere ganske harmlause og ikkje ha annan funksjon enn å spreie seg, men dei kan også vere 
+	svært destruktive og for eksempel slette data, loggføre kva som blir gjort på maskina, sende data til ein 
+	angripar eller gi ein angripar kontroll over maskina. <br>Den siste metoden blir blant anna brukt ved koordinerte 
+	angrep mot nettstader, der tusenvis av maskiner deltek i angrepet utan at eigaren er klar over det.</p>
+	<center><img src="img/virus2.jpg" height="160" width="220"><img src="img/virus.jpg" height="160" width="180"></center>
+	
+	<h3><u>Tre tips om vern mot datavirus</u></h3>
+	
+	<li>Installer alle tryggleiksoppdateringar for operativsystem og programvare</li><br>
+	<li>Ha oppdatert antivirusprogram på alle maskiner</li><br>
+	<li>ikkje opn vedlegg eller klikk på lenkjer i e-postar eller meldingar dersom du ikkje kjenner avsendaren eller er usikker på om e-posten er ekte</li>
+	
+	<br><br>
+	</main>
+	
+	<footer>
+	<div>
+	
+	<a href="https://www.youtube.com/watch?v=xzDWrR3ihoU" target="_blank"><h2>Kort fortalt om datavirus</h2></a><br>
+	</div>
+	</footer>
+	</div>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 70 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	</body>
+</html>

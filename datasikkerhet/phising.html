@@ -1,0 +1,85 @@
+<html>
+
+	<head>
+		<title>Phishing</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../stil.css">
+		<link rel="stylesheet" type="text/css" href="../dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="top.css">
+		<link rel="stylesheet" type="text/css" href="kropp.css">
+	</head>
+	
+	<body>
+	<div id="wrapper">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="datasikkerhet.html">Datasikkerhet</a></li>
+	  </ul>
+	<br>
+	
+	<header>
+	<font size="5"><b>Tema:</b></font>
+		<div class="dropdown">
+	 <button class="dropbtn">Phising</button>
+	  <div id="myDropdown" class="dropdown-content">
+		<a href="definisjon.html">Definisjon av datasikkerhet</a>
+		<a href="oppdateringar.html">Oppdatering av PC og andre program</a>
+		<a href="autentisering.html">Autentiseringstypar</a>
+		<a href="datavirus.html">Datavirus</a>
+		<a href="antivirus.html">Antivirus</a>
+		<a href="dmz.html">DMZ</a>
+		<a href="phising.html">Phishing</a>
+		<a href="idtjuveri.html">ID tjuveri</a>
+		<a href="hacking.html">Hacking</a>
+	  </div>
+	</div>
+	</header>
+	
+		<main>
+	<h1>Phishing:</h1>
+	
+	<p>Phishing er ein type hacking, bare at det er du som gir dei informasjonen dei treng, det kan vere at dei sende e-post som ser ut som om det er frå ordentleg bedrift, <br>
+	og at dei vil at du skal logge deg inn med brukernamn og passord. 
+	Phishing er i utgangspunktet hackarsjargong for «fisking» (fishing),<br> 
+	og speler på at ein «fiskar» etter sensitiv informasjon, passord og liknande.</p>
+	
+	<p>Den vanlegaste framgangsmåten er å sende ein e-post som ser ut som om han kjem frå ein kjend bank, 
+	og be om at mottakaren stadfestar informasjon som gjeld konto,<br> kredittkort eller liknande, ved å klikke på ei lenkje som ligg ved.
+	Teksten i e-posten forklarer gjerne at dette er nødvendig av omsyn til tryggleiken, eller at kontoen blir stengd dersom ikkje informasjonen blir stadfesta. 
+	<br>Denne informasjonen blir deretter brukt til å tappe kontoen for pengar.</p>
+	
+	<p>Svindlarane prøver å gjere det heile så truverdig som råd ved å lage ei nettside som ser identisk ut med dei ekte nettsidene til banken, eller ved å køyre eit script som først opnar dei faktiske nettsidene til banken,
+	og deretter eit mindre vindauge over dette der ein blir beden om å skrive inn person- og kontoinformasjon.
+	Andre teknikkar omfattar kontakt via SMS, nettprat eller telefon.</p>
+	<center><img src="img/fisk.jpg" height="160" width="200"></center><br>
+	</main>
+	
+	<footer>
+	
+	<a href="https://www.youtube.com/watch?v=Y7zNlEMDmI4" target="_blank"><h3>Video om Phishing</h3></a>
+	</footer>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 60 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	</body>
+</html>

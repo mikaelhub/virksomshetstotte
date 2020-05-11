@@ -1,0 +1,84 @@
+<html>
+
+	<head>
+		<title>Antivirus</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../stil.css">
+		<link rel="stylesheet" type="text/css" href="../dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="top.css">
+		<link rel="stylesheet" type="text/css" href="kropp.css">
+	</head>
+	
+	<body>
+	<div id="wrapper">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="datasikkerhet.html">Datasikkerhet</a></li>
+	  </ul>
+		<br>
+	
+	<header>
+	<font size="5"><b>Tema:</b></font>
+		<div class="dropdown">
+	 <button class="dropbtn">Antivirus</button>
+	  <div id="myDropdown" class="dropdown-content">
+		<a href="definisjon.html">Definisjon av datasikkerhet</a>
+		<a href="oppdateringar.html">Oppdatering av PC og andre program</a>
+		<a href="autentisering.html">Autentiseringstypar</a>
+		<a href="datavirus.html">Datavirus</a>
+		<a href="antivirus.html">Antivirus</a>
+		<a href="dmz.html">DMZ</a>
+		<a href="phising.html">Phishing</a>
+		<a href="idtjuveri.html">ID tjuveri</a>
+		<a href="hacking.html">Hacking</a>
+	  </div>
+	</div>
+	</header>
+		
+		<main>
+		<h1>Antivirus:</h1>
+		
+		<p>For å verne oss mot datavirus må alle maskiner ha oppdatert antivirusprogramvare.<br>
+		Dei fleste antivirusprogramma blir oppdaterte dagleg for å halde tritt med nye virusvariantar,
+		og leverandørane har eit felles varslingssystem for å sikre at nye virus blir oppdaga så raskt som mogleg.</p>
+		<p>Det finst fleire antivirusprogram på marknaden. Dei mest kjende er: <b> McAfee, F-Secure og Norton.</b><br>
+		Desse programma fungerer som abonnementsordningar, der ein betaler ei årleg avgift til produsenten for regelmessige oppdateringar.<br>
+		<center><img src="img/mcafee.png" height="30" width="100"> <img src="img/fsecure.jpg" height="30" width="100"> <img src="img/norton.png" height="30" width="100"><br></center>
+		For privatpersonar finst det også fleire gode gratis alternativ, for eksempel: <b>Avast</b> og <b>AVG</b>.<br>
+		<center><img src="img/avast.png" height="30" width="100"> <img src="img/avg.jpg" height="30" width="100"></center></p>
+		
+		<p>Det er viktig å vere klar over at antivirus <b>ikkje</b> er nokon garanti for at maskina ikkje blir infisert av eit datavirus.<br>
+		Oppdateringar til antivirusprogram kjem alltid etter at eit nytt virus blir oppdaga. Det er derfor alltid mogleg å få eit virus som antivirusprogrammet ikkje kan oppdage enno.</p>
+		<br>
+		</main>
+		
+		<footer>
+	
+		<a href="https://www.youtube.com/watch?v=Pv7RufjxoXQ"><h3>Liten animasjon</h3></a>
+		</footer>
+		</div>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 200 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	</body>
+</html>

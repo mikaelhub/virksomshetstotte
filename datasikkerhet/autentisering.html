@@ -1,0 +1,78 @@
+<html>
+
+	<head>
+		<title>Autentisering</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="../stil.css">
+		<link rel="stylesheet" type="text/css" href="../dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="top.css">
+		<link rel="stylesheet" type="text/css" href="kropp.css">
+	</head>
+	
+	<body>
+	<div id="wrapper">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="datasikkerhet.html">Datasikkerhet</a></li>
+	  </ul>
+	<br>
+	
+	<header>
+	<font size="5"><b>Tema:</b></font>
+		<div class="dropdown">
+	 <button class="dropbtn">Autentiseringstypar</button>
+	  <div id="myDropdown" class="dropdown-content">
+		<a href="definisjon.html">Definisjon av datasikkerhet</a>
+		<a href="oppdateringar.html">Oppdatering av PC og andre program</a>
+		<a href="autentisering.html">Autentiseringstypar</a>
+		<a href="datavirus.html">Datavirus</a>
+		<a href="antivirus.html">Antivirus</a>
+		<a href="dmz.html">DMZ</a>
+		<a href="phising.html">Phishing</a>
+		<a href="idtjuveri.html">ID tjuveri</a>
+		<a href="hacking.html">Hacking</a>
+	  </div>
+	</div>
+	</header>
+	
+	<main>
+	<h1>Autentisering:</h1>
+	
+	Autentisering benyttes både om prosessen med å bekrefte en påstått identitet, og om prosessen med å bekrefte om informasjon er ekte og uendret.<br>
+	
+	<h1>Autentiseringstypar:</h1>
+	Tofaktor-autentisering er veldig vanlig og noe de fleste kjenner fra bruk av bankkort. Her benytter man noe man har (bankkort) og noe man vet (pinkode).
+	Et annet eksempel er Bank ID.<br>
+	<p>
+	Ein kan bruke <b>fingeravtrykk</b>, då trenger ein fingeravtrykk for å logge seg inn på og det kan bare være gjennom fysisk innlogging.<br>
+	Ein kan bruke <b>iris</b>, ein bruke då øye til å logge seg innpå, fysisk innlogging og ein trenger programvare eller maskinvare til å kunne utnytte denne.<br>
+	<b>Tallkoder eller mønster</b>, koder som ein skriv inn og mønster som ein skal teikne inn.<br></p>
+
+	
+	
+	</main>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 200 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	</body>
+</html>
