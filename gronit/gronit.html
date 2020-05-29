@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <title>Grøn IT</title>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="stil/stil.css">
+	  <link rel="stylesheet" type="text/css" href="../stil/dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="../stil/top.css">
+		<link rel="stylesheet" type="text/css" href="../stil/kropp.css">
+	</head>
+	
+	  <body>
+	<div id="wrapper">
+	<div id="topborder">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="../datasikkerhet/datasikkerhet.html">Datasikkerhet</a></li>
+	  <li><a href="../ergonomi/ergonomi.html">Ergonomi</a></li>
+	  <li><a href="gronit.html">Grøn it</a></li>
+	  <li><a href="../loverogregel/loverogregel.html">Lover og reglar</a></li>
+	  <li><a href="../okonomi/okonomi.html">Økonomi</a></li>
+	  </ul>
+	  </div>
+	<br>
+	<div id="plassgron">
+	<font color="white"><center>↑</center><br><center>Du er her</center></font>
+	</div>
+		<h1><font color="white">Grøn it</h1>
+			<p><i>Grønt IT betyr både redusert miljøpåverknad frå faktisk brukt av IT maskinvare og redusert miljøpåverknad ved å optimalisere og erstatte miljøkrevande prosessar med IT-tenester.</i></p>
+			Her er nokre tiltak for å tenke på grøn IT:
+			<p><h4>Strambruk:</h4>
+			Bruke utstyr som brukar lite straum<br>
+			Slå av utstyr når det ikkje er i bruk<br>
+			Ikkje la pc-er stå pålogga heile dagen</p>
+			<p><h4>Resirkulering:</h4>
+			Datautstyr som inneheld tungmetall, bør ikkje havne i naturen<br>
+			Lever til gjenvinning, el butikkar og miljøstasjonar<br></p>
+			<p><h4>Virtualisering:</h4>
+			Kjøre fleire servere virtuelt, då minske ein på hardware og fysiske utstyr</p>
+			<p><h4>Levetid:</h4>
+			Bruk IKT utstyr lengst mogleg<br>
+			Oppgrader utstyret</p>
+			<p><h4>Utskrifter:</h4>
+			Mest mogleg dokumentasjon på skjerm<br>
+			Heildigitalt kontor<br>
+			Tosidig utskrifter<br>
+			Fylle på toner/blekk</p>
+			</font>
+	</div>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 50 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	  </body>
+</html>

@@ -1,0 +1,97 @@
+
+body {
+	
+background-color: #483D8B;
+
+}
+header {
+	height: auto;
+			width:auto;
+			background-color: white;
+			padding: 5px;
+}
+
+main {
+		margin-top:0px;
+		margin-top:0px;
+		height:auto;
+		width:auto;
+		background-color: #FFFFF0;
+}
+footer {
+	height:30px;
+		width:auto;
+		background-color: #FFF0F5;
+}
+
+#plassheim {
+	background-color: grey;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 10%;
+	margin-left: 0px;
+}
+
+#plassgron {
+	background-color: grey;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 10%;
+	margin-left: 285px;
+}
+
+#plassdata{
+	background-color: grey;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 10%;
+	margin-left: 90px;
+}
+
+#plasserg {
+	background-color: grey;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 10%;
+	margin-left: 200px;
+}
+
+#plasslov {
+	background-color: grey;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 10%;
+	margin-left: 400px;
+}
+
+#plassoko {
+	background-color: grey;
+	width: 6vw;
+	height: 10vh;
+	border-radius: 10%;
+	margin-left: 500px;
+}
+
+#link {
+	background-color: whitesmoke;
+	height: 30px;
+	width: 250px;
+}
+
+#topborder {
+	border-style:solid;
+		box-shadow: 3px 3px 3px red;
+		border-radius: 5px;
+}
+
+#wrapper {
+		
+		margin-top: 0px;
+		height: auto;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		border-style:solid;
+		box-shadow: 5px 5px 5px black;
+		border-radius: 3px;
+	}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	  <title>Ergonomi</title>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="stil/stil.css">
+	  <link rel="stylesheet" type="text/css" href="../stil/dropmeny.css">
+		<link rel="stylesheet" type="text/css" href="../stil/top.css">
+		<link rel="stylesheet" type="text/css" href="../stil/kropp.css">
+	</head>
+	
+	  <body>
+	<div id="wrapper">
+	<div id="topborder">
+	<ul>
+	  <li><a href="../index.html">Heim</a></li>
+	  <li><a href="../datasikkerhet/datasikkerhet.html">Datasikkerhet</a></li>
+	  <li><a href="ergonomi.html">Ergonomi</a></li>
+	  <li><a href="../gronit/gronit.html">Grøn it</a></li>
+	  <li><a href="../loverogregel/loverogregel.html">Lover og reglar</a></li>
+	  <li><a href="../okonomi/okonomi.html">Økonomi</a></li>
+	  </ul>
+	  </div>
+	<br>
+	<div id="plasserg">
+	<font color="white"><center>↑</center><br><center>Du er her</center></font>
+	</div>
+		<h1><font color="white">Ergonomi</h1>
+			<p><i>Ergonomi er læra om korleis vi på best måte kan tilpasse arbeidsoppgåvene og arbeidsmiljøet til mennesket. 
+			Dårlege ergonomiske tilhøve er ein av dei balegaste årsakene till sjukdom og fråvær.<br><br>
+			Dersom vi utset kroppen for langvarig og einsidig belastning, kan vi få belastningslidingar.
+			Belastingslidingar er ein tilstand der ein har varige smerter i bevegelseapparatet. 
+			Årsaka kan vere at arbeidet er for tungt, for einsformig, går føre seg i uheldige arbeidsstillingar eller barer for lenge.</i></p>
+			<h3><u>Oppsetting av utstyr og pauser</u></h3>
+			<p><h4>Sitte:</h4>
+			90 grader i albuen og kne - fot skal være planta på golvet<br>
+			Trekk skuldrane bak og legg dei litt framover til dei fell på plass<br>
+			Unngå knekk i nakken<br>
+			</p>
+			<p><h4>Skjerm:</h4>
+			Korrekt synsvinkel: 15-30 grader nedover<br>
+			50 - 70cm avstand<br>
+			Ikkje for skarp kontrast på skjermen<br></p>
+			<p><h4>Lys:</h4>
+			Dagslys og opplys<br>
+			Innlys frå venstre side<br>
+			</p>
+			<p><h4>Stol:</h4>
+			Høg i forhold til pult<br>
+			Justerbar, i alle retningar - rygg, sete, høgd, armlener osv.<br>
+			Støtte i korsryggen<br>
+			Den må kunnes tilpasset</p>
+			<p><h4>Bord:</h4>
+			Justerbart<br>
+			Passe til den som skal bruke den til å arbeide<br>
+			Stort nok</p>
+			<p><h4>Pause:</h4>
+			Mikropausar<br>
+			Bevegelse<br>
+			Bytte mellom arbeidsstillingar<br><br>
+			Kan gjøre øvelser i blant for å løyse opp visse kroppsdelar</p><br>
+			<br><u>Video:</u> ↓<br><br>
+			<div id="link">
+			<a href="https://www.youtube.com/watch?v=TfuWjmdxMvU&feature=emb_title" target="_blank">Video om ergonomiske øvelser</a>
+			</div>
+			<br>
+			<img src="bilde.jpg" height="300" width="600" alt="bilde som viser riktig posisjon">
+			<br><br>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑<br>Til toppen</button>
+	<script>
+//Får knappen
+var mybutton = document.getElementById("myBtn");
+
+// Når brukaren blar ned 70 px fra toppen, viser knappen
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 70 || document.documentElement.scrollTop > 70) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brukaren trypper på knappen blir den sendt til toppen
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	
+	
+	  </body>
+</html>
